@@ -15,8 +15,8 @@ $customDomain = (Get-Content $customDomainPath -Raw).Trim()   # e.g. mycompany.c
 $userPassword = (Get-Content $passwordPath -Raw).Trim()
 
 # Key: userPrincipalName MUST be unique and use a verified domain!
-$userName = "Krithikatestuser"                       # Change for each onboarding
-$userDisplayName = "Krithika Testuser"
+$userName = "ravitestuser"                       # Change for each onboarding
+$userDisplayName = "ravi Testuser"
 $userNick = $userName
 $userUPN = "$userName@$customDomain"             # UPN = login id, must have your custom domain
 
